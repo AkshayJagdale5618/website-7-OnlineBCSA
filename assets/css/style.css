@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darkpink:#DD127B;
+}
+.darkpink{
+    background-color: var(--darkpink);
+}
+/* Header Section Start */
+.navbar-brand img{ 
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover { 
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+/* /Header Section End */
+
+/* Navbar Section Start */
+.navbar a{
+    color: #000;
+}
+.navbar a:hover{
+    color: var(--darkpink);
+}
+/* Navbar Section End */
+
+
+/* Banner Section Start */
+#carouselExampleInterval .carousel-inner h5,h1 {
+    color: var(--darkpink);
+}
+
+.btn{
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #1CABF3;
+
+}
+.btn:hover{
+    border: 2px solid var(--darkpink);
+    color: var(--darkpink);
+    background-color : #1CABF3;
+}
+/* Banner Section End */
