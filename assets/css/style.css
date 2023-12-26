@@ -9,6 +9,25 @@
 .darkpink{
     background-color: var(--darkpink);
 }
+/* TopHead Section Start */
+.container .row .topheadtext-left a,.container .row .topheadtext-right a {
+    text-decoration: none; 
+    font-size: 13px;
+    font-weight: 4;
+}
+.container .row a:hover {
+    color: var(--darkpink);
+
+}
+.text-light {
+    color: #fff !important;
+}
+.text-light:hover {
+    color: #4867ed !important;
+}
+/* TopHead Section End */
+
+
 /* Header Section Start */
 .navbar-brand img{ 
     transition: 0.2s linear;
@@ -23,17 +42,17 @@
 .navbar a{
     color: #000;
 }
-.navbar a:hover{
+.navbar a:hover , .navbar-nav .nav-item  .active {
     color: var(--darkpink);
 }
+
 /* Navbar Section End */
 
 
-/* Banner Section Start */
+/* Banner/Hero Section Start */
 #carouselExampleInterval .carousel-inner h5,h1 {
     color: var(--darkpink);
 }
-
 .btn{
     font-weight: 600;
     border-radius: 50px;
@@ -46,4 +65,5 @@
     color: var(--darkpink);
     background-color : #1CABF3;
 }
-/* Banner Section End */
+/* Banner/Hero Section End */
+
