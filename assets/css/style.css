@@ -67,3 +67,29 @@
 }
 /* Banner/Hero Section End */
 
+/* Notification Section Start */
+marquee{
+    font-size: 16px;
+    font-weight: 600!important;
+    box-shadow: 0px 0px 5px grey;
+    border-bottom: 1px solid #d1b6b6;
+}
+/* Notification Section End */
+
+.about .container .row .text-danger {
+    font-weight: 600;
+} 
+.about .container .row  h3 .text-bharat {
+    color: var(--darkpink);
+    font-weight: 600;
+}
+.about .container .row  h3 .text-primary  {
+    font-weight: 600;
+}
+.about .about-text p {
+    text-align: justify;
+}
+.about .about-notification .news {
+    color: var(--darkpink);
+    font-weight: 600;
+}
