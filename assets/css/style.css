@@ -60,10 +60,37 @@
     background-color: #1CABF3;
 
 }
+.btn {
+    transition: 0.2s linear;
+}
+    
 .btn:hover{
-    border: 2px solid var(--darkpink);
+    transform: scale(1.05);
+    transition: 0.2s linear;    
+    border: 1px solid var(--darkpink);
     color: var(--darkpink);
     background-color : #1CABF3;
+}
+.carousel-indicators [data-bs-target]{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--darkpink);
+}
+.carousel-item .carousel-caption {
+    top: 40%;
+    left: 9%;
+    right: 9%;
+    text-align: left;
+    color: var(--darkpink);
+}
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 /* Banner/Hero Section End */
 
@@ -76,20 +103,12 @@ marquee{
 }
 /* Notification Section End */
 
-.about .container .row .text-danger {
-    font-weight: 600;
-} 
-.about .container .row  h3 .text-bharat {
+/* About Section Start */
+.text-darkpink {
     color: var(--darkpink);
-    font-weight: 600;
-}
-.about .container .row  h3 .text-primary  {
-    font-weight: 600;
 }
 .about .about-text p {
     text-align: justify;
 }
-.about .about-notification .news {
-    color: var(--darkpink);
-    font-weight: 600;
-}
+
+/* About Section End */
