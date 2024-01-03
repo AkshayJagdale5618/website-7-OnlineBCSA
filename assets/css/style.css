@@ -9,6 +9,7 @@
 .darkpink{
     background-color: var(--darkpink);
 }
+
 /* TopHead Section Start */
 .container .row .topheadtext-left a,.container .row .topheadtext-right a {
     text-decoration: none; 
@@ -27,7 +28,6 @@
 }
 /* TopHead Section End */
 
-
 /* Header Section Start */
 .navbar-brand img{ 
     transition: 0.2s linear;
@@ -45,9 +45,7 @@
 .navbar a:hover , .navbar-nav .nav-item  .active {
     color: var(--darkpink);
 }
-
 /* Navbar Section End */
-
 
 /* Banner/Hero Section Start */
 #carouselExampleInterval .carousel-inner h5,h1 {
@@ -62,8 +60,7 @@
 }
 .btn {
     transition: 0.2s linear;
-}
-    
+}    
 .btn:hover{
     transform: scale(1.05);
     transition: 0.2s linear;    
@@ -86,7 +83,6 @@
 }
 .carousel-control-prev-icon ,
 .carousel-control-next-icon {
-    
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -110,5 +106,36 @@ marquee{
 .about .about-text p {
     text-align: justify;
 }
-
 /* About Section End */
+
+/* Our Courses Section Start */
+.bg-secondary2{
+    background: #E2E2E2;
+}
+.our-courses h3{
+    color: var(--darkpink);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.row {    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-right:10px; */
+    /* margin-left: 10px; */
+}
+.rounded{
+    border-radius: 7px !important;
+}
+.bg-warning {
+    background-color: #E2E2E2;
+}
+.col-mg-4{
+    width: 320px;    
+}
+.our-courses .col-md-4 .word a {
+    text-decoration: none;
+    list-style: none;
+}
+/* Our Courses Section End */
